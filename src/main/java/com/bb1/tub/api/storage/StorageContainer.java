@@ -43,6 +43,8 @@ public abstract class StorageContainer {
 		return get(key)!=null;
 	}
 	
+	public abstract void remove(String key);
+	
 	public abstract String toSaveableString();
 	
 	protected abstract void fromSaveableString(String string);

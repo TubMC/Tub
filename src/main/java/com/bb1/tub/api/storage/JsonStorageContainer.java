@@ -69,5 +69,10 @@ public final class JsonStorageContainer extends StorageContainer {
 		}
 		return set;
 	}
+
+	@Override
+	public void remove(String key) {
+		this.jsonObject.remove(key);
+	}
 	
 }

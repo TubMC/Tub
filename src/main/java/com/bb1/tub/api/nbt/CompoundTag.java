@@ -31,6 +31,8 @@ public interface CompoundTag {
 
 	public void setCompound(String key, CompoundTag value);
 	
+	public void remove(String key);
+	
 	public JsonObject getJsonObject();
 
 }

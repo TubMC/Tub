@@ -56,5 +56,10 @@ public class NBTStorageContainer extends StorageContainer {
 	public Set<String> getKeys() {
 		return this.nbtTag.getKeys();
 	}
+
+	@Override
+	public void remove(String key) {
+		this.nbtTag.remove(key);
+	}
 	
 }

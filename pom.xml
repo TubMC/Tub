@@ -41,6 +41,14 @@
                                  <pattern>com.google</pattern>
                                  <shadedPattern>com.bb1.tub.lib.com.google</shadedPattern>
                                 </relocation>
+                                <relocation>
+                                 <pattern>org.eclipse.jetty</pattern>
+                                 <shadedPattern>com.bb1.tub.lib.org.eclipse.jetty</shadedPattern>
+                                </relocation>
+                                <relocation>
+                                 <pattern>com.graphql-java</pattern>
+                                 <shadedPattern>com.bb1.tub.lib.com.graphql-java</shadedPattern>
+                                </relocation>
                             </relocations>
                             <filters>
                                 <filter>

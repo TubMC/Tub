@@ -37,10 +37,12 @@
                         <configuration>
                             <dependencyReducedPomLocation>${project.build.directory}/dependency-reduced-pom.xml</dependencyReducedPomLocation>
                             <relocations>
+                              <!--
                                 <relocation>
-                                 <pattern>com.google</pattern>
-                                 <shadedPattern>com.bb1.tub.lib.com.google</shadedPattern>
+                                 <pattern>com.google.guava</pattern>
+                                 <shadedPattern>com.bb1.tub.lib.com.google.guava</shadedPattern>
                                 </relocation>
+                              -->
                                 <relocation>
                                  <pattern>org.eclipse.jetty</pattern>
                                  <shadedPattern>com.bb1.tub.lib.org.eclipse.jetty</shadedPattern>

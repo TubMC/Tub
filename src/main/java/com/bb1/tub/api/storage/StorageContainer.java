@@ -45,6 +45,12 @@ public abstract class StorageContainer {
 	
 	public abstract void remove(String key);
 	
+	public void clear() {
+		for (String key : getKeys()) {
+			remove(key);
+		}
+	}
+	
 	public abstract String toSaveableString();
 	
 	protected abstract void fromSaveableString(String string);
